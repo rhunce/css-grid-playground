@@ -1,0 +1,26 @@
+.grid-item {
+  width: 100%;
+  height: 50px;
+  margin: 5px;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.grid-item-1 {
+  background-color: cornflowerblue;
+}
+.grid-item-2 {
+  background-color: peachpuff;
+}
+.grid-item-3 {
+  background-color: mediumaquamarine;
+}
+
+/* ============================== */
+
+
+.grid-container {
+  display: grid;
+  /* grid-template-columns: 50% 10%; */
+}
